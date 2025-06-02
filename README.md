@@ -1,6 +1,6 @@
-# NA-nonlinear-diffusion-DD-temperature-enhanced
+# Code repository for "Numerical Analysis of a Nonlinear Temperature Enhanced Diffusion Model for Drug Delivery"
 
-Code for "Numerical Analysis of a Nonlinear Temperature Enhanced Diffusion Model for Drug Delivery"
+This repository contais the code for "Numerical Analysis of a Nonlinear Temperature Enhanced Diffusion Model for Drug Delivery".
 
 To run the code in this repository, first you should set up the `prob1_env` conda environment from `environment.yml`:
 
@@ -19,7 +19,7 @@ Once the conda environment is set up, you can verify that all tests are passing 
 pytest tests
 ```
 
-Then, running the notebooks for reproducing the convergence studies is the next step. To run a notebook, it should be in project's root folder. Simply open the notebook and run all cells. The first cell will add `src/` to the Python's system path. Running notebooks on VS Code also work.
+Then, running the notebooks for reproducing the convergence studies is the next step. To run a notebook, it should be in project's root folder. Simply open the notebook and run all cells. The first cell will add `src/` to the Python's system path.
 
 ## Files Structure
 
